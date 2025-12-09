@@ -3,8 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { Usuario } from '../models/usuario.model';
 import { EMPTY, Observable } from 'rxjs';
-import { environment } from '../../environments/environment.prod';
-
+import { environment } from '../../environments/environment';
 
 interface ForgotPasswordPayload {
   email: string;
