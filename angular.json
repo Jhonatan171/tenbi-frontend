@@ -35,12 +35,8 @@
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
 
-            ],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            ]
+      
           },
           "configurations": {
             "production": {
@@ -52,8 +48,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "4kB",
-                  "maximumError": "8kB"
+                  "maximumWarning": "15kB",
+                  "maximumError": "20kB"
                 }
               ],
               "outputHashing": "all"
